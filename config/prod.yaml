@@ -1,0 +1,8 @@
+env: "prod" #local,dev,prod  //// НУЖНЫ ПРОБЕЛЫ
+storage_path: "./storage.db"
+http_server :
+  address: "0.0.0.0:8082"
+  timeout: 4s
+  idle_timeoutz: 30s
+  user: "Rasl"
+  
